@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Romantic Audio Player</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #fcebea; /* Light pink background */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 10px;
+            text-align: center;
+            margin-top: 50px;
+        }
+        .audio-player {
+            margin-top: 20px;
+        }
+        h1 {
+            color: #e63946; /* Romantic red color */
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+        p {
+            color: #6d6875; /* Soft purple color */
+            font-size: 1.2rem;
+        }
+        .next-page-button {
+            margin-top: 20px;
+            background-color: #e63946; /* Romantic red color */
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .next-page-button:hover {
+            background-color: #c33c42; /* Darker shade of red on hover */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>UMM UMM</h1>
+        <p>Ik you once wanted to hear me but i sang shit hope this goes well...</p>
+        
+        <div class="audio-player">
+            <audio controls autoplay>
+                <source src="WhatsApp Audio 2024-07-19 at 9.39.07 PM.mp4" type="audio/mp4">
+                <!-- Include fallback source in case the browser does not support the MP4 format -->
+                <source src="WhatsApp Audio 2024-07-19 at 9.39.07 PM.mp4" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+
+        <!-- Next Page Button -->
+        <a href="actual.html" class="next-page-button">Next Page</a>
+    </div>
+</body>
+</html>
